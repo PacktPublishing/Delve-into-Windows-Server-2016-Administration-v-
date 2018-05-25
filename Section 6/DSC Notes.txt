@@ -1,0 +1,2 @@
+For more on DSC visit:
+https://docs.microsoft.com/en-us/powershell/dsc

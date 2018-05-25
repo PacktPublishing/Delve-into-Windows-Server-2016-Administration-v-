@@ -1,0 +1,6 @@
+FROM nanoserver/iis
+RUN powershell Remove-Item C:\Inetpub\wwwroot\* -Recurse -Force
+ADD index.htm C:/inetpub/wwwroot
+RUN powershell Invoke-WebRequest https://dotnetbinaries.blob.core.windows.net/servicemonitor/1342334/ServiceMonitor.exe -OutFile C:\ServiceMonitor.exe;
+EXPOSE 80
+ENTRYPOINT ["C:\\ServiceMonitor.exe", "w3svc"]

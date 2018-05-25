@@ -1,0 +1,5 @@
+# Create a disk
+New-VHD -Path .\DISKNAME.VHD -SizeBytes 10GB -Fixed
+
+# Attach a disk to VHD
+Add-VMHardDiskDrive -Path .\DISKNAME.VHD -VMName VMNAME
