@@ -9,9 +9,12 @@ Finally, we walk you through installing container support and running Windows co
 <DIV class=book-info-will-learn-text>
 <P>You'll use these tools and frameworks to master how to properly design an end to end Windows domain environment, which:</P>
 <UL>
-<LI>Secures your infrastructureEnables single-sign-on for network domain users 
-<LI>Enables fine-grained permission control over every network resource 
-<LI>Enables high availability and fault tolerance of key networking services </LI></UL></DIV>
+<LI>Configure Internet Information Services (IIS) and host a website 
+<LI>Configure and manage a Remote Desktop Services environment 
+<LI>Configure DFS, replication, storage spaces, and iSCSI targets/initiators 
+<LI>Apply consistent system configurations with Desired State Configuration
+<LI>Install container support and run a Windows containers 
+<LI>Build and manage a certificate authority infrastructure  </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
